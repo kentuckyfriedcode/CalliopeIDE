@@ -60,7 +60,7 @@ export default function ContractInteraction({ sessionId, authToken, apiBaseUrl }
           session_id: sessionId,
           contract_id: contractId.trim(),
           function_name: functionName.trim(),
-          invoker_secret: invokerSecret.trim(),
+        
           parameters,
         }),
       })
